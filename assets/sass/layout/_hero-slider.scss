@@ -15,8 +15,7 @@
 
 
     position: relative;
-    background: var(--color-black);
-	background-image: radial-gradient(circle closest-side, rgb(191 230 255 / 80%) 0, #ffffff 85%), linear-gradient(#d6d6d6 0, #b7b7b7 100%), url(../images/noise.png);
+	background-image: radial-gradient(circle closest-side, rgb(191 230 255 / 80%) 0, #ffffff 85%), linear-gradient(#d6d6d6 0, #b7b7b7 100%),;
     background-size: cover;
     background-repeat: no-repeat,no-repeat,repeat; 
     background-position: center top,center bottom -2px,center center;
@@ -168,9 +167,9 @@
 			top: 0;
 			width: 100%;
 			height: 100%;
-			background: #040128;
+			background: rgba(4, 1, 40, 0.25);
 			content: "";
-			opacity: .6;
+			opacity: 0.6;
 		}
 
 		.slide-content {

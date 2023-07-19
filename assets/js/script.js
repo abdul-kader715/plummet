@@ -755,9 +755,8 @@
         $(".project-slider-s2").owlCarousel({
             autoplay: true,
             smartSpeed: 300,
-            margin: 0,
+            margin: 20,
             loop:true,
-            center:true,
             autoplayHoverPause:true,
             dots: false,
             nav: false,
