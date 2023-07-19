@@ -115,7 +115,7 @@
 
 
 
-/*3.1 wpo-hero-slider*/
+/*wpo-hero-slider-s2*/
 
 
 
@@ -174,7 +174,7 @@
 		}
 
 		.slide-content {
-			padding-bottom: 85px;
+			padding-bottom: 20px;
 			padding-left: 240px;
 
 			@media(max-width:1700px) {
@@ -403,7 +403,7 @@
 
 		.theme-btn {
 			border-radius: 0;
-			color: $dark-gray;
+			color: $white;
 			font-weight: 600;
 			font-size: 18px;
 
@@ -414,12 +414,6 @@
 	}
 
 
-	.slide-btns .hero-video-btn {
-		margin-left: 40px;
-
-		@include media-query(767px) {
-			margin-left: 20px;
-		}
-	}
+	
 }
 

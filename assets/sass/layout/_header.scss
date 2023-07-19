@@ -481,14 +481,15 @@
 	align-items: center;
 
 
-	.theme-btn{
+	.theme-btn {
 		background: #F3F9FF;
 		color: $theme-primary-color;
+
 		@media (max-width: 1199px) {
 			padding: 15px 25px;
 		}
 
-		&:hover{
+		&:hover {
 			color: $white;
 		}
 	}
@@ -969,6 +970,7 @@
 		@media (max-width:1399px) {
 			padding-left: 0;
 		}
+
 		@media (max-width:1199px) {
 			padding-left: 30px;
 		}
@@ -1041,6 +1043,7 @@
 				&:hover,
 				&.active {
 					text-decoration: none;
+
 					&:after {
 						width: 40px;
 						opacity: 1;
@@ -1393,7 +1396,7 @@
 		padding: 30px 25px;
 	}
 
-	
+
 
 }
 
@@ -1599,5 +1602,105 @@
 
 	.wpo-site-header .navigation {
 		background-color: #fff;
+	}
+}
+
+
+
+
+
+
+/* header-style-3 */
+.header-style-3 {
+	.topbar {
+		padding: 0 45px;
+		background: #f7f9fb;
+
+		@media (max-width:1399px) {
+			padding: 0;
+		}
+
+		ul .fi:before {
+			color: $theme-primary-color;
+		}
+	}
+
+	.contact-intro ul li i {
+		color: $theme-primary-color;
+	}
+
+	.contact-intro ul li {
+		font-size: 16px;
+		float: left;
+		padding: 15px 15px;
+		color: #121A22;
+		font-family: $base-font;
+
+		@media (max-width:1399px) {
+			padding: 15px 10px;
+			font-size: 15px;
+		}
+
+		@media (max-width:1199px) {
+			padding: 15px 8px;
+			font-size: 13px;
+		}
+		@media (max-width:575px) {
+			padding: 8px 8px;
+			font-size: 13px;
+		}
+
+	}
+
+	.contact-info {
+		ul {
+			li {
+				border-right: 1px solid #ececec;
+
+				&:first-child {
+					border-left: 1px solid #ececec;
+					padding-left: 10px;
+				}
+
+			}
+		}
+	}
+
+	.wpo-site-header {
+		.navigation {
+			padding: 0px 45px;
+
+			@media (max-width:1399px) {
+				padding: 20px 0;
+			}
+		}
+
+		@media screen and (min-width: 992px) {
+			#navbar {
+				justify-content: center;
+				padding-left: 0;
+			}
+		}
+
+
+		@media (max-width: 991px) {
+
+			.header-right {
+				right: -64px;
+			}
+
+			.mini-cart .cart-count {
+				width: 15px;
+				height: 17px;
+				font-size: 10px;
+				line-height: 19px;
+			}
+		}
+		.header-right {
+			
+			@media (max-width:575px) {
+				right: -32px;
+			}
+		}
 	}
 }
