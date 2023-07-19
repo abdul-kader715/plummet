@@ -168,7 +168,15 @@
             padding: 0;
         }
     }
-
+    &.s3{
+        padding-top: 120px;
+        @media (max-width:991px) {
+            padding-top: 90px;
+        }
+        @media (max-width:767px) {
+            padding-top: 80px;
+        }
+    }
 }
 
 .service-wrap {
@@ -353,6 +361,9 @@
                 font-size: 25px;
                 line-height: 35px;
             }
+        }
+        &.s2{
+            text-align: center;
         }
     }
 
@@ -943,6 +954,7 @@
                 margin-top: 20px;
              }
         }
+      
     }
 }
 
@@ -952,6 +964,7 @@
     .image {
         img {
             width: 100%;
+            border-radius: 10px;
         }
     }
 
